@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="logo">
+          <img src="imagenes/Logo.png" alt="Logo de Alura">
+          <h1 class="titulo">Encriptador de frases</h1> 
+        </div>
+    </header>
+
+    <main>
+        <section class="izquierda">
+            <div>    
+               <input  class="entrada-texto" type="text" id="textoAEncriptar" placeholder="Ingrese texto aqui">      
+            </div>
+                <div class="botones">
+                    <p class="texto1"><img src="imagenes/bi_exclamation-circle-fill.png" alt="exclamaciom"> solo letras minusculas y sin acento</p>
+                        <input class="botonEncriptar" type="button" id="botonEncriptar" value="Encriptar">    
+                        <button class="botondesencriptar" type="button" id="botondesencriptar">Desencriptar</button>
+                </div>
+        </section>
+
+        <section class="derecha">
+                <div>
+                     <img class="muneco" src="imagenes/Muñeco.png" id="muneco" alt="muneco">
+                </div>
+                <div>
+                       <h3 class="textoh3" id="textoh3">Ningun mensaje fue encontrado</h3>
+                       <textarea class="textotarea" name="" id="textoDesencriptado" cols="30" rows="10">ingrese el texto que desea encriptar o desencriptar
+                       </textarea>
+                </div>
+                <div>
+                    <button class="botoncopiar" id="botoncopiar">Copiar</button>
+                </div>
+        </section>
+          <footer class="foo">
+                   <p class="corazon">Hecho con 💚 por Rubén Serrano - 2023</p>
+                   <div>
+                         <a href="https://github.com/sapotinto/ejemplo-alura-git"><img src="imagenes/github.png" alt="Github" class="github"></a>
+                   </div>
+        </footer>
+    </main>
+    
+</body>
+
+</html>
+
+<script src="encriptar.js"></script>

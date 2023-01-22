@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado{
+    background: peru;
+    width: 100%;
+    height: 50%;
+}
+body{
+    background-color: beige;
+} 
+.logo{
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+   margin-bottom: 10px;
+   display: inline-block;
+}
+.titulo{
+    position:absolute;
+    top: 5px;
+    left: 450px;
+}
+.izquierda{
+    width: 70%;
+    height: 90%;
+    clear: right; 
+    /* background: aquamarine; */
+}
+.entrada-texto{
+    margin: 15% 10% 1% 20%;
+    width: 60%;
+    height: auto; /*Altura del input*/
+    color: #0a3871;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inter;
+    font-style: normal;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.botones{
+    margin: 200px 50px;
+}
+.texto1{
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 30px;  
+    position: relative;
+    top: 70px; 
+}
+.botonEncriptar{
+    background: peru;
+    height: 40px;
+    width: 30%;
+    font-size: 15px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding: 0 0 1px 0;
+}
+.botondesencriptar{
+    background-color: burlywood;
+    height: 40px;
+    width: 30%;
+    font-size: 15px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-left: 40px;
+    padding: 0 0 1px 0;
+}
+.derecha{
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin-right: 15px;
+    position: absolute;
+    top:65px;
+    right:0px;
+    /* background: pink; */
+}
+.derecha ,muneco{
+    margin-left:  20px;
+}
+.textoh3{
+    margin-left: 40px;
+}
+.textotarea{
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 120px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.botoncopiar{
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    font-family: inter;
+    border-radius: 20px;
+    background-color: peru;
+    margin: 20px 170px 0px 100px;
+    display: none;
+}
+.foo{
+    background: peru;
+    width: 100%;
+    height: 60px;
+}
+.corazon{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.github{
+    width: 1.5%;;
+    height: 1.5%;
+    margin: 10px  0 15px 650px;
+   padding-bottom: 10px;
+}
